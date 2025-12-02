@@ -1,0 +1,36 @@
+{
+  "name": "advent-of-code-2025",
+  "version": "1.0.0",
+  "description": "My journey solving daily challenges during december while also not mentally collapsing between job and finals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "d1:p1": "ts-node src/day-1/part-1/index.ts",
+    "d1:p2": "ts-node src/day-1/part-2/index.ts"
+
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmaladio/advent-of-code-2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jmaladio/advent-of-code-2025/issues"
+  },
+  "homepage": "https://github.com/jmaladio/advent-of-code-2025#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "eslint": "^9.39.1",
+    "prettier": "^3.7.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
