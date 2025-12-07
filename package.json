@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "d1:p1": "ts-node src/day-1/part-1/index.ts",
-    "d1:p2": "ts-node src/day-1/part-2/index.ts"
+    "d1:p2": "ts-node src/day-1/part-2/index.ts",
+    "d2:p1": "ts-node src/day-2/part-1/index.ts",
+    "d2:p2": "ts-node src/day-2/part-2/index.ts"
 
   },
   "ts-node": {
